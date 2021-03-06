@@ -10,6 +10,7 @@
   --foot-color: rgba(255, 255, 255, 0.6);
   --black-color: #000000;
   --bgrnd-her: #2f303a;
+  --bgrnd-prod: #e5e5e5;
 }
 a {
   display: block;
@@ -243,6 +244,10 @@ img {
 
 /* products company */
 
+.products-company {
+  /* background: var(--bgrnd-prod); */
+}
+
 .prod-list {
   display: flex;
   margin-left: -30px;
@@ -406,6 +411,17 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--color-title);
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.filter-item {
+}
+
+.filter-list {
+  display: flex;
 }
 
 .modal-btn:hover,
@@ -423,7 +439,12 @@ img {
 
 /* products */
 
-.prod-title {
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-title {
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 18px;
