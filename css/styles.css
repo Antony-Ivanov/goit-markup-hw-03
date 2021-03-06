@@ -179,17 +179,10 @@ img {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
-}
-
-.hero-container {
-  margin: 0 auto;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
+  margin-bottom: 30px;
 }
 
 .madal-btn {
@@ -212,6 +205,22 @@ img {
 /* / hero */
 
 /* advantages */
+
+.advantages-list {
+  display: flex;
+  margin-right: -30px;
+}
+
+.adv-box {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.adv-item {
+  margin-right: 30px;
+  flex-basis: 100%/4- 30px;
+}
+
 .advantages-title {
   font-weight: 700;
   font-size: 14px;
@@ -227,11 +236,29 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--color-text);
+  margin-top: 10px;
 }
 
 /* / advantages */
 
 /* products company */
+
+.prod-list {
+  display: flex;
+  margin-left: -30px;
+}
+
+.prod-item {
+  margin-top: 50px;
+  margin-left: 30px;
+  flex-basis: 100%/3- 30px;
+}
+
+.prod-box {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .products-company-title {
   font-weight: 700;
   font-size: 36px;
@@ -246,15 +273,21 @@ img {
 
 .our-team-list {
   display: flex;
-  /* flex-basis: 100%/4 -30px; */
+  margin-left: -30px;
 }
 
+.title-box {
+  padding-top: 30px;
+  background-color: var(--white-color);
+  padding-bottom: 30px;
+}
 .our-team-item:not(:last-child) {
   margin-right: 30px;
 }
-
 .our-team-item {
-  flex-basis: 100%/4 -30px;
+  flex-basis: 100%/4- 30px;
+  margin-top: 50px;
+  text-align: center;
 }
 
 .our-team {
@@ -269,7 +302,6 @@ img {
   line-height: 1.16;
   letter-spacing: 0.03em;
   color: var(--color-title);
-  margin-bottom: 50px;
   text-align: center;
 }
 
@@ -279,6 +311,8 @@ img {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--color-title);
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 .our-team-text {
@@ -303,8 +337,9 @@ img {
   margin-bottom: 20px;
 }
 
-address .adress-list:not(:last-child) {
-  margin-bottom: 9px;
+.foot-box {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .foot-text {
@@ -313,6 +348,7 @@ address .adress-list:not(:last-child) {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--white-color);
+  margin-bottom: 9px;
 }
 
 .foot-link {
@@ -329,6 +365,7 @@ address .adress-list:not(:last-child) {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--foot-color);
+  margin-bottom: 9px;
 }
 
 .foot-tel {
@@ -341,8 +378,6 @@ address .adress-list:not(:last-child) {
 
 .footer {
   background-color: var(--bgrnd-color);
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 /* /footer */
